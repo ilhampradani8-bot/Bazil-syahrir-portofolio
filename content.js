@@ -39,46 +39,39 @@ const translations = {
         // SERVICES
         srv_title: "Financial Planning Services",
         srv_sub: "Comprehensive solutions tailored to your life goals.",
-        
         srv_1_title: "Shariah Estate Planning",
         srv_1_desc: "Hibah & Inheritance Planning (Wasiat/Faraid).",
-        
         srv_2_title: "Wealth Management",
         srv_2_desc: "Unit Trust & Private Retirement Scheme (PRS).",
-        
         srv_3_title: "Family Protection",
         srv_3_desc: "Takaful Life, Medical & Critical Illness protection.",
-        
         srv_4_title: "Investment Advisory",
         srv_4_desc: "Professional Shariah-compliant investment consultation.",
 
         // ACHIEVEMENTS
         ach_title: "Awards & Achievements",
         ach_desc: "Proven track record of excellence in the financial industry.",
-        
         ach_top_title: "Top Performer",
         ach_top_desc: "Consistently delivering best results for clients since 2021.",
-
         ach_2025_item: "Top Producer Shariah Estate Planning (Jan & Aug)",
         ach_2024_item: "Up Rank to FC & Senior Wealth Planner (SWP)",
         ach_2023_item1: "Champion Shariah Estate Planning (TSI Group)",
         ach_2023_item2: "Top 10 Family Takaful (FAR PWP)",
 
-        // CONTACT & FOOTER
-        contact_info: "Contact Info",
+        // CONTACT (CHAT)
+        contact_title: "Let's Start a Conversation",
+        contact_sub: "Have a question? Chat directly with me on WhatsApp.",
+        chat_greeting: "Assalamualaikum! Hi, how can I assist your financial planning today?",
+        chat_placeholder: "Type your message here...",
+
+        // FOOTER
         footer_bio: "Helping professionals and Muslim families achieve financial peace of mind through comprehensive Shariah-based financial planning.",
         footer_links: "Quick Links",
         footer_rights: "© 2026 Bazil Syahir. All rights reserved.",
         footer_privacy: "Privacy Policy",
         footer_terms: "Terms of Service",
-        back_top: "Back to Top",
+        back_top: "Back to Top"
     },
-
-    // CONTACT CHAT
-    contact_title: "Let's Start a Conversation",
-    contact_sub: "Have a question? Chat directly with me on WhatsApp.",
-    chat_greeting: "Assalamualaikum! Hi, how can I assist your financial planning today?",
-    chat_placeholder: "Type your message here...",
     
     bm: {
         // GLOBAL
@@ -120,44 +113,37 @@ const translations = {
         // SERVICES
         srv_title: "Layanan Perancangan Kewangan",
         srv_sub: "Solusi komprehensif yang disesuaikan dengan matlamat hidup anda.",
-
         srv_1_title: "Perancangan Harta Syariah",
         srv_1_desc: "Perancangan Hibah & Pewarisan Harta (Wasiat/Faraid).",
-        
         srv_2_title: "Pengurusan Kekayaan",
         srv_2_desc: "Unit Trust & Skim Persaraan Swasta (PRS).",
-        
         srv_3_title: "Perlindungan Keluarga",
         srv_3_desc: "Takaful & Perlindungan Keluarga (Perubatan/Penyakit Kritikal).",
-        
         srv_4_title: "Penasihat Pelaburan",
         srv_4_desc: "Konsultasi pelaburan patuh Syariah profesional.",
 
         // ACHIEVEMENTS
         ach_title: "Pencapaian & Penghargaan",
         ach_desc: "Rekod kecemerlangan yang terbukti dalam industri kewangan.",
-
         ach_top_title: "Prestasi Terbaik",
         ach_top_desc: "Konsisten memberikan hasil terbaik untuk klien sejak 2021.",
-
         ach_2025_item: "Pengeluar Teratas Perancangan Harta Syariah (Jan & Ogos)",
         ach_2024_item: "Kenaikan Pangkat ke FC & Perancang Kekayaan Kanan (SWP)",
         ach_2023_item1: "Juara Perancangan Harta Syariah (Kumpulan TSI)",
         ach_2023_item2: "Top 10 Takaful Keluarga (FAR PWP)",
 
-        // CONTACT & FOOTER
-        contact_info: "Info Hubungi",
+        // CONTACT (CHAT)
+        contact_title: "Mari Mulakan Perbualan",
+        contact_sub: "Ada soalan? Chat terus dengan saya di WhatsApp.",
+        chat_greeting: "Assalamualaikum! Hai, bagaimana saya boleh bantu perancangan kewangan anda?",
+        chat_placeholder: "Tulis pesan anda di sini...",
+
+        // FOOTER
         footer_bio: "Membantu profesional dan keluarga Muslim mencapai ketenangan kewangan melalui perancangan kewangan komprehensif berasaskan Syariah.",
         footer_links: "Pautan Pantas",
         footer_rights: "© 2026 Bazil Syahir. Hak cipta terpelihara.",
         footer_privacy: "Dasar Privasi",
         footer_terms: "Syarat Perkhidmatan",
-        back_top: "Kembali ke Atas",
+        back_top: "Kembali ke Atas"
     }
-
-    // CONTACT CHAT
-    contact_title: "Mari Mulakan Perbualan",
-    contact_sub: "Ada soalan? Chat terus dengan saya di WhatsApp.",
-    chat_greeting: "Assalamualaikum! Hai, bagaimana saya boleh bantu perancangan kewangan anda?",
-    chat_placeholder: "Tulis pesan anda di sini..."
 };

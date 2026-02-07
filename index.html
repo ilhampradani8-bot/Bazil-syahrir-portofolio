@@ -17,11 +17,14 @@
 </style>
     <style>
         @font-face {
-            font-family: 'HeroCustomFont'; /* Nama panggilan font */
-            src: url('custom-font.ttf') format('truetype'); /* File font kamu */
+            font-family: 'HeroCustomFont'; 
+            /* Ganti 'custom-font.ttf' menjadi 'font.ttf' sesuai nama file asli */
+            src: url('font.ttf') format('truetype'); 
             font-weight: normal;
             font-style: normal;
         }
+        /* Tambahan agar scroll ke section tidak tertutup navbar */
+        html { scroll-padding-top: 100px; }
     </style>
 
     <script>
@@ -77,20 +80,20 @@
             </div>
 
             <div class="flex items-center gap-4">
-                <div class="flex items-center gap-2 text-xs font-bold">
-                    <button onclick="setLang('en')" id="btn-en" class="transition-colors hover:text-accent">ENG</button>
-                    <span class="text-slate-300">|</span>
-                    <button onclick="setLang('bm')" id="btn-bm" class="text-slate-400 hover:text-accent transition-colors">BM</button>
-                </div>
-                
-                <a href="#contact" class="hidden md:block px-5 py-2.5 bg-primary hover:bg-blue-900 text-white text-xs font-bold rounded-full transition-all shadow-lg hover:shadow-blue-900/20 hover:-translate-y-0.5">
-                    <span data-i18n="nav_cta">Free Consultation</span>
-                </a>
+    <div class="flex items-center gap-2 text-xs font-bold">
+        <button onclick="setLang('en')" id="btn-en" class="text-accent border-b-2 border-accent transition-all">ENG</button>
+        <span class="text-slate-300">|</span>
+        <button onclick="setLang('bm')" id="btn-bm" class="text-slate-400 hover:text-primary border-b-2 border-transparent transition-all">BM</button>
+    </div>
+    
+    <a href="#contact" class="hidden md:block px-5 py-2.5 bg-primary hover:bg-blue-900 text-white text-xs font-bold rounded-full transition-all shadow-lg hover:shadow-blue-900/20 hover:-translate-y-0.5">
+        <span data-i18n="nav_cta">Free Consultation</span>
+    </a>
 
-                <button onclick="toggleMenu()" class="md:hidden p-2 text-primary bg-blue-50 rounded-lg hover:bg-blue-100 transition-all">
-                    <i data-lucide="menu" class="w-6 h-6"></i>
-                </button>
-            </div>
+    <button onclick="toggleMenu()" class="md:hidden p-2 text-primary bg-blue-50 rounded-lg hover:bg-blue-100 transition-all">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+    </button>
+</div>
         </div>
 
         <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white border-t border-slate-100 shadow-xl origin-top transition-all duration-300">
@@ -666,6 +669,8 @@
     <script src="content.js"></script>
 
     <script src="logic.js"></script>
+    
+
 
     
     <script>
